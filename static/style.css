@@ -1,0 +1,62 @@
+h1,h2,h3 {
+    font-size: 36px;
+    color: rgb(19, 144, 63);
+    animation-name:title;
+    animation-duration: 5s;
+    text-align: center;
+}
+/* make animation for h1,h2,h3 */
+@keyframes title {
+    0%   {color: rgb(19, 144, 63);}
+    25%  {color: rgb(48, 216, 157);}
+    50%  {color: rgb(135, 205, 172);}
+    100% {color: rgb(44, 150, 40);}
+}
+
+.btn{
+    background-color: rgb(19, 144, 63);
+    width:800px;
+    padding:10px;
+}
+.btn-container{
+    width:700px;
+    margin: 10px auto;
+    padding:50px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    box-shadow: 3px 3px 3px grey;
+    align-items: center;
+}
+.count,.count_plus{
+    display: flex;
+    flex-direction: column;
+}
+.count p, .count_plus p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.btn{
+    width:100px;
+}
+form{
+    width:900px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+#field{
+    width:500px;
+    height:40px;
+
+}
+#count{
+    background-color: rgb(19, 144, 63);
+    width:100px;
+    color:#fff;
+}
+#count:hover{
+    background-color: rgba(224, 7, 7, 0.609);
+}
